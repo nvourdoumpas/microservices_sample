@@ -62,7 +62,7 @@
                   "name": "Get Platform By Id",
                   "request": {
                     "url": {
-                      "raw": "https://localhost:5001/api/Platforms/2",
+                      "raw": "http://localhost:5000/api/Platforms/2",
                       "query": [],
                       "variable": []
                     },
@@ -106,6 +106,149 @@
                   "request": {
                     "url": {
                       "raw": "http://localhost:5000/api/platforms",
+                      "query": [],
+                      "variable": []
+                    },
+                    "method": "POST",
+                    "header": [
+                      {
+                        "key": "user-agent",
+                        "value": "Keyrunner"
+                      },
+                      {
+                        "key": "cache-control",
+                        "value": "No-Cache"
+                      },
+                      {
+                        "key": "Accept-Encoding",
+                        "value": "gzip, deflate, br"
+                      },
+                      {
+                        "key": "Connection",
+                        "value": "keep-alive"
+                      },
+                      {
+                        "key": "accept",
+                        "value": "*/*"
+                      },
+                      {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                      }
+                    ],
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\r\n    \"name\": \"Docker\",\r\n    \"publisher\": \"Docker\",\r\n    \"cost\": \"Free\"\r\n  }",
+                      "options": {
+                        "raw": {
+                          "language": "json"
+                        }
+                      }
+                    },
+                    "description": ""
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Docker Env",
+          "item": [
+            {
+              "name": "Platform Service",
+              "item": [
+                {
+                  "name": "Get All Platforms",
+                  "request": {
+                    "url": {
+                      "raw": "http://localhost:8080/api/platforms",
+                      "query": [],
+                      "variable": []
+                    },
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "user-agent",
+                        "value": "Keyrunner"
+                      },
+                      {
+                        "key": "cache-control",
+                        "value": "No-Cache"
+                      },
+                      {
+                        "key": "Accept-Encoding",
+                        "value": "gzip, deflate, br"
+                      },
+                      {
+                        "key": "Connection",
+                        "value": "keep-alive"
+                      },
+                      {
+                        "key": "accept",
+                        "value": "*/*"
+                      }
+                    ],
+                    "body": {
+                      "mode": "raw",
+                      "raw": "",
+                      "options": {
+                        "raw": {
+                          "language": "text"
+                        }
+                      }
+                    },
+                    "description": ""
+                  }
+                },
+                {
+                  "name": "Get Platform By Id",
+                  "request": {
+                    "url": {
+                      "raw": "http://localhost:8080/api/Platforms/2",
+                      "query": [],
+                      "variable": []
+                    },
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "user-agent",
+                        "value": "Keyrunner"
+                      },
+                      {
+                        "key": "cache-control",
+                        "value": "No-Cache"
+                      },
+                      {
+                        "key": "Accept-Encoding",
+                        "value": "gzip, deflate, br"
+                      },
+                      {
+                        "key": "Connection",
+                        "value": "keep-alive"
+                      },
+                      {
+                        "key": "accept",
+                        "value": "*/*"
+                      }
+                    ],
+                    "body": {
+                      "mode": "raw",
+                      "raw": "",
+                      "options": {
+                        "raw": {
+                          "language": "text"
+                        }
+                      }
+                    },
+                    "description": ""
+                  }
+                },
+                {
+                  "name": "Create Platform",
+                  "request": {
+                    "url": {
+                      "raw": "http://localhost:8080/api/platforms",
                       "query": [],
                       "variable": []
                     },
