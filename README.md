@@ -1,4 +1,28 @@
+# ----- KUBERNETES COMMANDS -----
+
+# Apply kubernetes deployment configuration
+
+kubectl apply -f K8S/platforms-depl.yaml
+
+# Show status of kubernetes deployments
+
+kubectl get deployments
+
+# Delete kubernetes deployment
+
+kubectl delete deployment platforms-depl
+
+# Show status of kubernetes pods
+
+kubectl get pods
+
+# Show status of kubernetes services (e.g NodePort)
+
+kubectl get services
+
 # ----- DOCKER COMMANDS -----
+
+cd PlatformService
 
 # Build image local
 
