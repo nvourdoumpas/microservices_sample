@@ -17,6 +17,7 @@ Author: [Les Jackson](https://lesjackson.net/) <br />
 - VS Code (C# Dev Kit, Docker, Kuberetes extensions)
 - Docker for Desktop (With enable kubernetes)
 - .net core 5 SDK
+- Postman
 
 ## Deployment <a name = "deployment"></a>
 
