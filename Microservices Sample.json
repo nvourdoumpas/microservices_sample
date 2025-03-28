@@ -149,6 +149,54 @@
                   }
                 }
               ]
+            },
+            {
+              "name": "Commands Service",
+              "item": [
+                {
+                  "name": "Test Inbound Connection",
+                  "request": {
+                    "url": {
+                      "raw": "http://localhost:6000/api/c/platforms",
+                      "query": [],
+                      "variable": []
+                    },
+                    "method": "POST",
+                    "header": [
+                      {
+                        "key": "user-agent",
+                        "value": "Keyrunner"
+                      },
+                      {
+                        "key": "cache-control",
+                        "value": "No-Cache"
+                      },
+                      {
+                        "key": "Accept-Encoding",
+                        "value": "gzip, deflate, br"
+                      },
+                      {
+                        "key": "Connection",
+                        "value": "keep-alive"
+                      },
+                      {
+                        "key": "accept",
+                        "value": "*/*"
+                      }
+                    ],
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{}",
+                      "options": {
+                        "raw": {
+                          "language": "text"
+                        }
+                      }
+                    },
+                    "description": ""
+                  }
+                }
+              ]
             }
           ]
         },
