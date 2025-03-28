@@ -8,9 +8,9 @@
 
 ## About <a name = "about"></a>
 
-This project created for education proposes about Microservices, Containers, Docker, Docker Hub, Kubernetes, API Gateway, Message BUS & RABBITMQ technologies using .NET Core.
-Original course: [.NET Microservices – Full Course](#https://www.youtube.com/watch?v=DgVjEo3OGBI)
-Author: [Les Jackson](#https://lesjackson.net/)
+This project created for education proposes about Microservices, Containers, Docker, Docker Hub, Kubernetes, API Gateway, Message BUS & RABBITMQ technologies using .NET Core. <br />
+Original course: [.NET Microservices – Full Course](https://www.youtube.com/watch?v=DgVjEo3OGBI) <br />
+Author: [Les Jackson](https://lesjackson.net/) <br />
 
 ## Prerequisites <a name = "prerequisites"></a>
 
