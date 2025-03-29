@@ -38,6 +38,12 @@ kubectl apply -f K8S/platforms-depl.yaml
 kubectl get deployments
 ```
 
+- Restart kubernetes deployments to take changes of image
+
+```
+kubectl rollout restart deployment platforms-depl
+```
+
 - Delete kubernetes deployment
 
 ```
