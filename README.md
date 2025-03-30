@@ -62,6 +62,22 @@ kubectl get pods
 kubectl get services
 ```
 
+- Apply depleoyment of ingress nginx (for API Gateway)
+
+```
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.12.1/deploy/static/provider/cloud/deploy.yaml
+```
+
+- Get all namespaces and get pods for specific namespace (e.g. ingress nginx)
+
+```
+kubectl get namespaces
+```
+
+```
+kubectl get pods --namespace=ingress-nginx
+```
+
 ### Docker Commands <a name = "docker"></a>
 
 - Build image local
