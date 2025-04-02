@@ -78,6 +78,18 @@ kubectl get namespaces
 kubectl get pods --namespace=ingress-nginx
 ```
 
+- Show storage status
+
+```
+kubectl get storageclass
+```
+
+- Show Persistent Volume Claim status
+
+```
+kubectl get pvc
+```
+
 ### Docker Commands <a name = "docker"></a>
 
 - Build image local
