@@ -90,6 +90,12 @@ kubectl get storageclass
 kubectl get pvc
 ```
 
+- Show Persistent Volume Claim status
+
+```
+kubectl create secret generic mssql --from-literal=SA_PASSWORD="P@ssw0rd!"
+```
+
 ### Docker Commands <a name = "docker"></a>
 
 - Build image local
