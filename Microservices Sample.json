@@ -797,6 +797,187 @@
                   }
                 }
               ]
+            },
+            {
+              "name": "Commands Service (nginx)",
+              "item": [
+                {
+                  "name": "Get All Platforms",
+                  "request": {
+                    "url": {
+                      "raw": "http://nvour.com/api/c/platforms",
+                      "query": [],
+                      "variable": []
+                    },
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "user-agent",
+                        "value": "Keyrunner"
+                      },
+                      {
+                        "key": "cache-control",
+                        "value": "No-Cache"
+                      },
+                      {
+                        "key": "Accept-Encoding",
+                        "value": "gzip, deflate, br"
+                      },
+                      {
+                        "key": "Connection",
+                        "value": "keep-alive"
+                      },
+                      {
+                        "key": "accept",
+                        "value": "*/*"
+                      }
+                    ],
+                    "body": {
+                      "mode": "raw",
+                      "raw": "",
+                      "options": {
+                        "raw": {
+                          "language": "text"
+                        }
+                      }
+                    },
+                    "description": ""
+                  }
+                },
+                {
+                  "name": "Get Commands For Platform",
+                  "request": {
+                    "url": {
+                      "raw": "http://nvour.com/api/c/platforms/6/commands",
+                      "query": [],
+                      "variable": []
+                    },
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "user-agent",
+                        "value": "Keyrunner"
+                      },
+                      {
+                        "key": "cache-control",
+                        "value": "No-Cache"
+                      },
+                      {
+                        "key": "Accept-Encoding",
+                        "value": "gzip, deflate, br"
+                      },
+                      {
+                        "key": "Connection",
+                        "value": "keep-alive"
+                      },
+                      {
+                        "key": "accept",
+                        "value": "*/*"
+                      }
+                    ],
+                    "body": {
+                      "mode": "raw",
+                      "raw": "",
+                      "options": {
+                        "raw": {
+                          "language": "text"
+                        }
+                      }
+                    },
+                    "description": ""
+                  }
+                },
+                {
+                  "name": "Get Command For Platform",
+                  "request": {
+                    "url": {
+                      "raw": "http://nvour.com/api/c/platforms/6/commands/1",
+                      "query": [],
+                      "variable": []
+                    },
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "user-agent",
+                        "value": "Keyrunner"
+                      },
+                      {
+                        "key": "cache-control",
+                        "value": "No-Cache"
+                      },
+                      {
+                        "key": "Accept-Encoding",
+                        "value": "gzip, deflate, br"
+                      },
+                      {
+                        "key": "Connection",
+                        "value": "keep-alive"
+                      },
+                      {
+                        "key": "accept",
+                        "value": "*/*"
+                      }
+                    ],
+                    "body": {
+                      "mode": "raw",
+                      "raw": "",
+                      "options": {
+                        "raw": {
+                          "language": "text"
+                        }
+                      }
+                    },
+                    "description": ""
+                  }
+                },
+                {
+                  "name": "Create Command For Platform",
+                  "request": {
+                    "url": {
+                      "raw": "http://nvour.com/api/c/platforms/6/commands",
+                      "query": [],
+                      "variable": []
+                    },
+                    "method": "POST",
+                    "header": [
+                      {
+                        "key": "user-agent",
+                        "value": "Keyrunner"
+                      },
+                      {
+                        "key": "cache-control",
+                        "value": "No-Cache"
+                      },
+                      {
+                        "key": "Accept-Encoding",
+                        "value": "gzip, deflate, br"
+                      },
+                      {
+                        "key": "Connection",
+                        "value": "keep-alive"
+                      },
+                      {
+                        "key": "accept",
+                        "value": "*/*"
+                      },
+                      {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                      }
+                    ],
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\r\n  \"HowTo\": \"Show status of kubernetes pods\",\r\n  \"CommandLine\": \"kubectl get pods\"\r\n}",
+                      "options": {
+                        "raw": {
+                          "language": "json"
+                        }
+                      }
+                    },
+                    "description": ""
+                  }
+                }
+              ]
             }
           ]
         }
