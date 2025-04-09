@@ -26,6 +26,7 @@ namespace CommandsService.EventProcessing
             switch (eventType)
             {
                 case EventType.PlatformPublished:
+                    addPlatform(message);
                     break;
                 default:
                     break;
@@ -64,6 +65,7 @@ namespace CommandsService.EventProcessing
                     {
                         _commandRepo.CretePlatform(plat);
                         _commandRepo.SaveChanges();
+                        Console.WriteLine("--> Platform added!");
                     }
                     else
                     {
