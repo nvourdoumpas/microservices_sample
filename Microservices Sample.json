@@ -195,6 +195,182 @@
                     },
                     "description": ""
                   }
+                },
+                {
+                  "name": "Get All Platforms",
+                  "request": {
+                    "url": {
+                      "raw": "http://localhost:6000/api/c/platforms",
+                      "query": [],
+                      "variable": []
+                    },
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "user-agent",
+                        "value": "Keyrunner"
+                      },
+                      {
+                        "key": "cache-control",
+                        "value": "No-Cache"
+                      },
+                      {
+                        "key": "Accept-Encoding",
+                        "value": "gzip, deflate, br"
+                      },
+                      {
+                        "key": "Connection",
+                        "value": "keep-alive"
+                      },
+                      {
+                        "key": "accept",
+                        "value": "*/*"
+                      }
+                    ],
+                    "body": {
+                      "mode": "raw",
+                      "raw": "",
+                      "options": {
+                        "raw": {
+                          "language": "text"
+                        }
+                      }
+                    },
+                    "description": ""
+                  }
+                },
+                {
+                  "name": "Get Commands For Platform",
+                  "request": {
+                    "url": {
+                      "raw": "http://localhost:6000/api/c/platforms/1/commands",
+                      "query": [],
+                      "variable": []
+                    },
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "user-agent",
+                        "value": "Keyrunner"
+                      },
+                      {
+                        "key": "cache-control",
+                        "value": "No-Cache"
+                      },
+                      {
+                        "key": "Accept-Encoding",
+                        "value": "gzip, deflate, br"
+                      },
+                      {
+                        "key": "Connection",
+                        "value": "keep-alive"
+                      },
+                      {
+                        "key": "accept",
+                        "value": "*/*"
+                      }
+                    ],
+                    "body": {
+                      "mode": "raw",
+                      "raw": "",
+                      "options": {
+                        "raw": {
+                          "language": "text"
+                        }
+                      }
+                    },
+                    "description": ""
+                  }
+                },
+                {
+                  "name": "Get Command For Platform",
+                  "request": {
+                    "url": {
+                      "raw": "http://localhost:6000/api/c/platforms/1/commands/1",
+                      "query": [],
+                      "variable": []
+                    },
+                    "method": "GET",
+                    "header": [
+                      {
+                        "key": "user-agent",
+                        "value": "Keyrunner"
+                      },
+                      {
+                        "key": "cache-control",
+                        "value": "No-Cache"
+                      },
+                      {
+                        "key": "Accept-Encoding",
+                        "value": "gzip, deflate, br"
+                      },
+                      {
+                        "key": "Connection",
+                        "value": "keep-alive"
+                      },
+                      {
+                        "key": "accept",
+                        "value": "*/*"
+                      }
+                    ],
+                    "body": {
+                      "mode": "raw",
+                      "raw": "",
+                      "options": {
+                        "raw": {
+                          "language": "text"
+                        }
+                      }
+                    },
+                    "description": ""
+                  }
+                },
+                {
+                  "name": "Create Command For Platform",
+                  "request": {
+                    "url": {
+                      "raw": "http://localhost:6000/api/c/platforms/1/commands",
+                      "query": [],
+                      "variable": []
+                    },
+                    "method": "POST",
+                    "header": [
+                      {
+                        "key": "user-agent",
+                        "value": "Keyrunner"
+                      },
+                      {
+                        "key": "cache-control",
+                        "value": "No-Cache"
+                      },
+                      {
+                        "key": "Accept-Encoding",
+                        "value": "gzip, deflate, br"
+                      },
+                      {
+                        "key": "Connection",
+                        "value": "keep-alive"
+                      },
+                      {
+                        "key": "accept",
+                        "value": "*/*"
+                      },
+                      {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                      }
+                    ],
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\r\n  \"HowTo\": \"Build a .net project\",\r\n  \"CommandLine\": \"dotnet build\"\r\n}",
+                      "options": {
+                        "raw": {
+                          "language": "json"
+                        }
+                      }
+                    },
+                    "description": ""
+                  }
                 }
               ]
             }
